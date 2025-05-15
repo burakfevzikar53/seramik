@@ -6,36 +6,36 @@ function App() {
   const [name, setName] = useState("");
 
   const handleLogin = () => {
-    if (name.toLowerCase() === "seher") {
+    if (name.toLowerCase() === "seher camcı") {
       setIsLoggedIn(true);
     } else {
-      alert("Bu sayfa sadece Seher için! 🌸");
+      alert("Ad boşluk Soyad şeklinde giriniz!");
     }
   };
 
   const message = `
     Bal Surat’a
-    tttttt
-    Sen benim en güzel sanat eserimsin. Hayatıma girdiğin günden beri her anı daha renkli, her anı daha anlamlı hale getirdin. 
+    
+    Sen benim gördüğüm en güzel sanat eserisin. Hayatıma girdiğin günden beri her anı daha renkli, her anı daha anlamlı hale getirdin. 
     Senin güzelliğin, kalbinin temizliği ve bana kattığın onca güzel şey için sonsuz minnettarım.
-
+    
     Birlikte geçirdiğimiz her an, beni daha iyi bir insan yaptı. Seninle birlikte büyüdüm, geliştim ve hayatı en güzel haliyle deneyimledim. 
-    Senin varlığın, hayatımı bir başyapıta dönüştürdü.
+    Senin varlığın, hayatımı bir başyapıta dönüştürdü resmen.
 
-    Seninle geçirdiğim her an, hayatımın en değerli eseri. Birlikte daha nice güzellikler yaratmak, hayatımızı sonsuza dek renklendirmek istiyorum. 
-    Benimle bu sanat dolu yolculuğa devam eder misin, bal surat?
+    Birlikte daha nice güzellikler yaratmak, hayatımızı sonsuza dek renklendirmek istiyorum. 
+    Benimle bu yolculuğa devam eder misin?
 
-    Broşürün arkasına bak. ❤️
+    ❤️ Benimle Evlenir Misin? ❤️
   `;
 
   return (
     <div className="container">
       {!isLoggedIn ? (
         <div className="login-container">
-          <h2>Bal Surat'a Özel Giriş</h2>
+          <h2>🌸 Hoşgeldin 🌸</h2>
           <input
             type="text"
-            placeholder="Adını Gir"
+            placeholder="Adınızı ve Soyadınızı Girin"
             value={name}
             onChange={(e) => setName(e.target.value)}
             className="login-input"
