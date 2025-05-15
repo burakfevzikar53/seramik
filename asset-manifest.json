@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/seramik/static/css/main.00716d55.css",
-    "main.js": "/seramik/static/js/main.06018ac0.js",
+    "main.css": "/seramik/static/css/main.8bc13d04.css",
+    "main.js": "/seramik/static/js/main.96391034.js",
     "index.html": "/seramik/index.html",
-    "main.00716d55.css.map": "/seramik/static/css/main.00716d55.css.map",
-    "main.06018ac0.js.map": "/seramik/static/js/main.06018ac0.js.map"
+    "main.8bc13d04.css.map": "/seramik/static/css/main.8bc13d04.css.map",
+    "main.96391034.js.map": "/seramik/static/js/main.96391034.js.map"
   },
   "entrypoints": [
-    "static/css/main.00716d55.css",
-    "static/js/main.06018ac0.js"
+    "static/css/main.8bc13d04.css",
+    "static/js/main.96391034.js"
   ]
 }
