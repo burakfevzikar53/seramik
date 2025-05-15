@@ -15,7 +15,7 @@ function App() {
 
   const message = `
     Bal Surat’a
-
+    tttttt
     Sen benim en güzel sanat eserimsin. Hayatıma girdiğin günden beri her anı daha renkli, her anı daha anlamlı hale getirdin. 
     Senin güzelliğin, kalbinin temizliği ve bana kattığın onca güzel şey için sonsuz minnettarım.
 
